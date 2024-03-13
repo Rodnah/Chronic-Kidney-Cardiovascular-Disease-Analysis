@@ -3,17 +3,20 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
-- [Tools](#Tools) 
-- [Data Cleaning / Preparation](#Data-Cleaning/-Preparation)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
-- [Results / Findings](#results-/-findings)
-- [Recommendations](#Recommendations)
+- [Results](#results)
+- [Recommendations](#recommendations)
 - [References](#references)
  
 
 ### Project Overview
 The project investigates correlations within kidney disease, analyzing factors such as blood pressure and blood glucose distribution among affected patients. Additionally, it seeks to understand the prevalence of symptoms experienced by individuals with kidney disease, offering insights vital for improved diagnosis and management strategies.
+
+![Untitled](https://github.com/Rodnah/Test/assets/147203468/c7bc876e-e439-4166-b39c-ba26b8a98077)
+
 
 ### Data Sources
 The primary dataset was downloaded from Kaggle as a CSV file named "kidney_disease.csv," containing detailed information about various parameters within the dataset.
@@ -24,7 +27,7 @@ The primary dataset was downloaded from Kaggle as a CSV file named "kidney_disea
 3. Python- Data Analysis 
 4. Matplotlib and Seaborn - Data Visualization
 
-### Data Cleaning/Preparation
+### Data Cleaning
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing values.
@@ -51,7 +54,7 @@ ON s.id = dc.id;
 
 
 
-### Results/Findings
+### Results
 The analysis results are summarized as follows:
 
 1. There are strong associations among parameters, such as Serum Creatinine (sc) with Blood Urea (bu) and Hemoglobin (hemo) with Packed Cell Volume (PCV), alongside a notable negative correlation between Serum Sodium (sod) and Serum Creatinine (sc).
